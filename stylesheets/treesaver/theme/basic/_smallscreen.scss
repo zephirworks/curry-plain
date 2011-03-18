@@ -1,0 +1,46 @@
+@import "compass/css3/box-shadow";
+
+@mixin -treesaver-theme-basic-grid-smallscreen {
+  .smallscreen.mobile {
+    .mobile.grid {
+      margin: 0;
+      padding: $treesaver-theme-smallscreen-grid-padding;
+      border: none;
+      @include box-shadow(none);
+
+      .column {
+        top: $treesaver-line-height / 2;
+        bottom: $treesaver-line-height / 2;
+      }
+
+      .container {
+        top: $treesaver-line-height / 2;
+        bottom: $treesaver-line-height;
+      }
+    }
+  }
+}
+
+@mixin -treesaver-theme-basic-misc-smallscreen {
+  .smallscreen.mobile {
+    background: white;
+
+    .column, .container, p {
+      width: $treesaver-theme-smallscreen-width;
+      min-width: $treesaver-theme-smallscreen-width;
+    }
+
+    .column {
+      h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+        padding: 0;
+      }
+      h1 { font-size: $treesaver-theme-mobile-h1-font-size; }
+      h2 { font-size: $treesaver-theme-mobile-h2-font-size; }
+      h3 { font-size: $treesaver-theme-mobile-h3-font-size; }
+      h4 { font-size: $treesaver-theme-mobile-h4-font-size; }
+      h5 { font-size: $treesaver-theme-mobile-h5-font-size; }
+      h6 { font-size: $treesaver-theme-mobile-h6-font-size; }
+    }
+  }
+}

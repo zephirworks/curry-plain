@@ -1,0 +1,51 @@
+@import "treesaver/config";
+
+//
+// Grid (page) layout
+//
+$treesaver-theme-grid-outer-width: 320px !default;
+$treesaver-theme-grid-margin: 20px !default;
+
+//
+// Overall styling
+//
+$treesaver-theme-body-background-color: #eee !default;            // background color
+$treesaver-theme-fallback-body-background-color: #eee !default;   // fallback background color
+
+//
+// Grid (page) styling
+//
+$treesaver-theme-grid-background-color: white !default;           // background color of regular pages
+$treesaver-theme-grid-shadow-color: #bbb !default;                // the color of the page shadow
+$treesaver-theme-grid-outer-margins: 8px 0 8px 20px !default;     // margins around pages
+
+$treesaver-theme-grid-padding-horizontal: 20px !default;          // padding inside the page
+
+//
+// Smallscreen styling
+//
+$treesaver-theme-smallscreen-width: $treesaver-grid-smallscreen-width !default; // deprecate?
+$treesaver-theme-smallscreen-grid-padding: 10px !default;
+
+//
+// Mobile
+//
+$treesaver-theme-mobile-base-font-size: 14px !default;
+$treesaver-theme-mobile-h1-font-size: $treesaver-line-height !default;          // Font size for h1
+$treesaver-theme-mobile-h2-font-size: $treesaver-theme-mobile-base-font-size * 1.1 !default;    // Font size for h2
+$treesaver-theme-mobile-h3-font-size: $treesaver-theme-mobile-base-font-size * 1.1 !default;    // Font size for h3
+$treesaver-theme-mobile-h4-font-size: $treesaver-theme-mobile-base-font-size !default;          // Font size for h4
+$treesaver-theme-mobile-h5-font-size: $treesaver-theme-mobile-base-font-size !default;          // Font size for h5
+$treesaver-theme-mobile-h6-font-size: $treesaver-theme-mobile-base-font-size !default;          // Font size for h6
+
+//
+// Typography
+//
+$treesaver-theme-font-family: Georgia, serif !default;
+$treesaver-theme-base-font-size: 14px !default;                       // Font size for regular paragraphs;
+$treesaver-theme-h1-font-size: $treesaver-line-height * 2 !default;   // Font size for h1
+$treesaver-theme-h2-font-size: $treesaver-theme-base-font-size * 1.1 !default;        // Font size for h2
+$treesaver-theme-h3-font-size: $treesaver-theme-base-font-size !default;              // Font size for h3
+$treesaver-theme-h4-font-size: $treesaver-theme-base-font-size !default;              // Font size for h4
+$treesaver-theme-h5-font-size: $treesaver-theme-base-font-size !default;              // Font size for h5
+$treesaver-theme-h6-font-size: $treesaver-theme-base-font-size !default;              // Font size for h6

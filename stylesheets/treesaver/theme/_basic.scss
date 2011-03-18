@@ -1,0 +1,17 @@
+//
+// Simple style, meant as a starting point for further customization.
+//
+
+@import "basic/config";
+
+@include treesaver-layout-setup($treesaver-theme-grid-outer-width, $treesaver-theme-grid-margin, 3);
+
+@import "basic/base";
+@import "basic/grid";
+@import "basic/smallscreen";
+@import "basic/typography";
+
+@include -treesaver-theme-basic-body;
+@include -treesaver-theme-basic-grid;
+@include -treesaver-theme-basic-grid-smallscreen;
+@include -treesaver-theme-basic-misc-smallscreen;

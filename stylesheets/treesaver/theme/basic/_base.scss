@@ -1,0 +1,19 @@
+//
+// Basic styling for the whole "site"
+//
+@mixin -treesaver-theme-basic-body {
+  // fallback used when JavaScript is disabled
+  body {
+    background-color: $treesaver-theme-fallback-body-background-color;
+  }
+
+  .treesaver {
+    body {
+      background-color: $treesaver-theme-body-background-color;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
