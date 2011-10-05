@@ -15,3 +15,14 @@
     opacity: 1;
   }
 }
+
+@mixin -treesaver-theme-basic-grid-vertical-padding($height: 24px) {
+  .grid {
+    min-height: $height * 2;
+  }
+
+  .column, .container {
+    top: $height;
+    bottom: $height;
+  }
+}

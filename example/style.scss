@@ -1,20 +1,5 @@
-//
-// This is a wrapper file used for building the static CSS file, do not use.
-//
-
 $treesaver-theme-grid-outer-width: 280px;
 $treesaver-theme-grid-margin: 25px;
 
 @import "treesaver";
 @import "treesaver/theme/basic";
-
-@include treesaver-chrome-viewer-with-bottom-controls(40px);
-
-.grid {
-  min-height: 48px;
-}
-
-.column, .container {
-  top: 24px;
-  bottom: 24px;
-}

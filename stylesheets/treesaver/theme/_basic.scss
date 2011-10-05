@@ -2,8 +2,10 @@
 // Simple style, meant as a starting point for further customization.
 //
 
+@import "treesaver";
 @import "basic/config";
 
+@include treesaver-chrome-viewer-with-bottom-controls(40px);
 @include treesaver-layout-setup($treesaver-theme-grid-outer-width, $treesaver-theme-grid-margin, 3);
 
 @import "basic/base";
@@ -13,5 +15,6 @@
 
 @include -treesaver-theme-basic-body;
 @include -treesaver-theme-basic-grid;
+@include -treesaver-theme-basic-grid-vertical-padding;
 @include -treesaver-theme-basic-grid-smallscreen;
 @include -treesaver-theme-basic-misc-smallscreen;

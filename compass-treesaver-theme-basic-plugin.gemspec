@@ -19,8 +19,8 @@ Gem::Specification.new do |s|
     "stylesheets/treesaver/theme/basic/_grid.scss",
     "stylesheets/treesaver/theme/basic/_smallscreen.scss",
     "stylesheets/treesaver/theme/basic/_typography.scss",
-    "templates/project/_compass_treesaver_theme_basic.scss",
-    "templates/project/manifest.rb"
+    "templates/project/manifest.rb",
+    "templates/project/style.scss"
   ]
   s.homepage = %q{http://zephirworks.com/}
   s.require_paths = ["lib"]
