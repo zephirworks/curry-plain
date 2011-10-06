@@ -1,4 +1,5 @@
 @import "treesaver/config";
+@import "utils";
 
 //
 // Grid (page) layout
@@ -49,3 +50,10 @@ $treesaver-theme-h3-font-size: $treesaver-theme-base-font-size !default;        
 $treesaver-theme-h4-font-size: $treesaver-theme-base-font-size !default;              // Font size for h4
 $treesaver-theme-h5-font-size: $treesaver-theme-base-font-size !default;              // Font size for h5
 $treesaver-theme-h6-font-size: $treesaver-theme-base-font-size !default;              // Font size for h6
+
+$treesaver-theme-h1-line-height: -treesaver-theme-font-size-to-line-height($treesaver-theme-h1-font-size) !default;
+$treesaver-theme-h2-line-height: -treesaver-theme-font-size-to-line-height($treesaver-theme-h2-font-size) !default;
+$treesaver-theme-h3-line-height: -treesaver-theme-font-size-to-line-height($treesaver-theme-h3-font-size) !default;
+$treesaver-theme-h4-line-height: -treesaver-theme-font-size-to-line-height($treesaver-theme-h4-font-size) !default;
+$treesaver-theme-h5-line-height: -treesaver-theme-font-size-to-line-height($treesaver-theme-h5-font-size) !default;
+$treesaver-theme-h6-line-height: -treesaver-theme-font-size-to-line-height($treesaver-theme-h6-font-size) !default;

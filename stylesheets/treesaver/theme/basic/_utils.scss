@@ -1,0 +1,8 @@
+@function -treesaver-theme-font-size-to-line-height($font-size) {
+  @each $mult in (6, 5, 4, 3, 2) {
+    @if ($font-size > $treesaver-line-height * ($mult - 1)) {
+      @return $treesaver-line-height * $mult;
+    }
+  }
+  @return $treesaver-line-height;
+}

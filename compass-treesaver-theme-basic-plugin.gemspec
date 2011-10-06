@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
     "stylesheets/treesaver/theme/basic/_grid.scss",
     "stylesheets/treesaver/theme/basic/_smallscreen.scss",
     "stylesheets/treesaver/theme/basic/_typography.scss",
+    "stylesheets/treesaver/theme/basic/_utils.scss",
     "templates/project/manifest.rb",
     "templates/project/style.scss"
   ]
