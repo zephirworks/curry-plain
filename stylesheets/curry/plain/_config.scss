@@ -1,0 +1,59 @@
+@import "curry/config";
+@import "curry/plain/utils";
+
+//
+// Grid (page) layout
+//
+$curry-plain-grid-outer-width: 320px !default;
+$curry-plain-grid-margin: 20px !default;
+
+//
+// Overall styling
+//
+$curry-plain-body-background-color: #eee !default;            // background color
+$curry-plain-fallback-body-background-color: #eee !default;   // fallback background color
+
+//
+// Grid (page) styling
+//
+$curry-plain-grid-background-color: white !default;           // background color of regular pages
+$curry-plain-grid-shadow-color: #bbb !default;                // the color of the page shadow
+$curry-plain-grid-outer-margins: 8px 0 8px 20px !default;     // margins around pages
+
+$curry-plain-grid-padding-horizontal: 20px !default;          // padding inside the page
+
+//
+// Smallscreen styling
+//
+$curry-plain-smallscreen-width: $curry-grid-smallscreen-width !default; // deprecate?
+$curry-plain-smallscreen-grid-padding: 10px !default;
+
+//
+// Mobile
+//
+$curry-plain-mobile-base-font-size: 14px !default;
+$curry-plain-mobile-h1-font-size: $curry-line-height !default;          // Font size for h1
+$curry-plain-mobile-h2-font-size: $curry-plain-mobile-base-font-size * 1.1 !default;    // Font size for h2
+$curry-plain-mobile-h3-font-size: $curry-plain-mobile-base-font-size * 1.1 !default;    // Font size for h3
+$curry-plain-mobile-h4-font-size: $curry-plain-mobile-base-font-size !default;          // Font size for h4
+$curry-plain-mobile-h5-font-size: $curry-plain-mobile-base-font-size !default;          // Font size for h5
+$curry-plain-mobile-h6-font-size: $curry-plain-mobile-base-font-size !default;          // Font size for h6
+
+//
+// Typography
+//
+$curry-plain-font-family: Georgia, serif !default;
+$curry-plain-base-font-size: 14px !default;                       // Font size for regular paragraphs;
+$curry-plain-h1-font-size: $curry-line-height * 2 !default;   // Font size for h1
+$curry-plain-h2-font-size: $curry-plain-base-font-size * 1.1 !default;        // Font size for h2
+$curry-plain-h3-font-size: $curry-plain-base-font-size !default;              // Font size for h3
+$curry-plain-h4-font-size: $curry-plain-base-font-size !default;              // Font size for h4
+$curry-plain-h5-font-size: $curry-plain-base-font-size !default;              // Font size for h5
+$curry-plain-h6-font-size: $curry-plain-base-font-size !default;              // Font size for h6
+
+$curry-plain-h1-line-height: -curry-plain-font-size-to-line-height($curry-plain-h1-font-size) !default;
+$curry-plain-h2-line-height: -curry-plain-font-size-to-line-height($curry-plain-h2-font-size) !default;
+$curry-plain-h3-line-height: -curry-plain-font-size-to-line-height($curry-plain-h3-font-size) !default;
+$curry-plain-h4-line-height: -curry-plain-font-size-to-line-height($curry-plain-h4-font-size) !default;
+$curry-plain-h5-line-height: -curry-plain-font-size-to-line-height($curry-plain-h5-font-size) !default;
+$curry-plain-h6-line-height: -curry-plain-font-size-to-line-height($curry-plain-h6-font-size) !default;

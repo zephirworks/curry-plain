@@ -1,15 +1,15 @@
 //
 // Basic styling for the whole "site"
 //
-@mixin -treesaver-theme-basic-body {
+@mixin -curry-plain-body {
   // fallback used when JavaScript is disabled
   body {
-    background-color: $treesaver-theme-fallback-body-background-color;
+    background-color: $curry-plain-fallback-body-background-color;
   }
 
   .treesaver {
     body {
-      background-color: $treesaver-theme-body-background-color;
+      background-color: $curry-plain-body-background-color;
     }
 
     a {

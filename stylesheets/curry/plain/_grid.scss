@@ -1,0 +1,28 @@
+@import "compass/css3/box-shadow";
+
+@mixin -curry-plain-grid {
+  .grid {
+    background-color: $curry-plain-grid-background-color;
+    @include single-box-shadow($curry-plain-grid-shadow-color, 0, 2px, 5px);
+
+    margin: $curry-plain-grid-outer-margins;
+    padding: 0 $curry-plain-grid-padding-horizontal;
+
+    opacity: .25;
+  }
+
+  #currentPage {
+    opacity: 1;
+  }
+}
+
+@mixin -curry-plain-grid-vertical-padding($height: 24px) {
+  .grid {
+    min-height: $height * 2;
+  }
+
+  .column, .container {
+    top: $height;
+    bottom: $height;
+  }
+}

@@ -1,0 +1,21 @@
+//
+// Simple style, meant as a starting point for further customization.
+//
+
+@import "curry";
+@import "curry/plain/config";
+
+@include curry-chrome-viewer-with-bottom-controls(40px);
+@include curry-layout-setup($curry-plain-grid-outer-width, $curry-plain-grid-margin, 3);
+
+@import "curry/plain/base";
+@import "curry/plain/grid";
+@import "curry/plain/smallscreen";
+@import "curry/plain/typography";
+
+@include -curry-plain-body;
+@include -curry-plain-grid;
+@include -curry-plain-grid-vertical-padding;
+@include -curry-plain-grid-smallscreen;
+@include -curry-plain-misc-smallscreen;
+

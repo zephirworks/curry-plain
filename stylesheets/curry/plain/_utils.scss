@@ -1,0 +1,8 @@
+@function -curry-plain-font-size-to-line-height($font-size) {
+  @each $mult in (6, 5, 4, 3, 2) {
+    @if ($font-size > $curry-line-height * ($mult - 1)) {
+      @return $curry-line-height * $mult;
+    }
+  }
+  @return $curry-line-height;
+}

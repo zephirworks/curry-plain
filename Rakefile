@@ -1,6 +1,6 @@
 require 'compass'
 require 'compass/exec'
-require 'compass-treesaver-plugin'
+require 'curry'
 
 desc 'Build static CSS file'
 task 'build' do

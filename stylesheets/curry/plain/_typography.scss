@@ -1,0 +1,35 @@
+div, p, button {
+  font-family: $curry-plain-font-family;
+  font-size: $curry-plain-base-font-size;
+}
+
+h1 {
+  font-family: $curry-plain-font-family;
+  font-size: $curry-plain-h1-font-size;
+  line-height: $curry-plain-h1-line-height;
+}
+
+h2 {
+  font-size: $curry-plain-h2-font-size;
+  line-height: $curry-plain-h2-line-height;
+}
+
+h3 {
+  font-size: $curry-plain-h3-font-size;
+  line-height: $curry-plain-h3-line-height;
+}
+
+h4 {
+  font-size: $curry-plain-h4-font-size;
+  line-height: $curry-plain-h4-line-height;
+}
+
+h5 {
+  font-size: $curry-plain-h5-font-size;
+  line-height: $curry-plain-h5-line-height;
+}
+
+h6 {
+  font-size: $curry-plain-h6-font-size;
+  line-height: $curry-plain-h6-line-height;
+}

@@ -1,0 +1,46 @@
+@import "compass/css3/box-shadow";
+
+@mixin -curry-plain-grid-smallscreen {
+  .smallscreen.mobile {
+    .mobile.grid {
+      margin: 0;
+      padding: $curry-plain-smallscreen-grid-padding;
+      border: none;
+      @include box-shadow(none);
+
+      .column {
+        top: $curry-line-height / 2;
+        bottom: $curry-line-height / 2;
+      }
+
+      .container {
+        top: $curry-line-height / 2;
+        bottom: $curry-line-height;
+      }
+    }
+  }
+}
+
+@mixin -curry-plain-misc-smallscreen {
+  .smallscreen.mobile {
+    background: white;
+
+    .column, .container, p {
+      width: $curry-plain-smallscreen-width;
+      min-width: $curry-plain-smallscreen-width;
+    }
+
+    .column {
+      h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+        padding: 0;
+      }
+      h1 { font-size: $curry-plain-mobile-h1-font-size; }
+      h2 { font-size: $curry-plain-mobile-h2-font-size; }
+      h3 { font-size: $curry-plain-mobile-h3-font-size; }
+      h4 { font-size: $curry-plain-mobile-h4-font-size; }
+      h5 { font-size: $curry-plain-mobile-h5-font-size; }
+      h6 { font-size: $curry-plain-mobile-h6-font-size; }
+    }
+  }
+}
