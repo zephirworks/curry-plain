@@ -31,3 +31,8 @@ Documentation
 =============
 
 See the [wiki](https://github.com/zephirworks/curry-plain/wiki) for documentation on the available mixins and variables.
+
+License
+=======
+
+Plain Curry is released under the MIT license.
