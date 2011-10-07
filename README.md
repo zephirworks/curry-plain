@@ -22,6 +22,8 @@ you can simply add the gem to your Gemfile.
       gem 'curry-plain'
     end
 
+Plain Curry is also available as pre-compiled CSS you can [download](https://github.com/zephirworks/curry-plain/archives/master) for use in your non-Compass projects.
+
 Create A Project
 ================
 
