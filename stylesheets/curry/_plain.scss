@@ -5,7 +5,7 @@
 @import "curry";
 @import "curry/plain/config";
 
-@include curry-chrome-viewer-with-bottom-controls(40px);
+@include curry-chrome-viewer-with-bottom-controls($curry-plain-chrome-controls-height);
 @include curry-layout-setup($curry-plain-grid-outer-width, $curry-plain-grid-margin, 3);
 
 @import "curry/plain/base";
