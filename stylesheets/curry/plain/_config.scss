@@ -4,6 +4,12 @@
 //
 // Grid (page) layout
 //
+
+//-
+// The width of a single-width column or container.
+//
+// Wider columns are sized based on the value of this variable and the value of `$curry-plain-grid-margin`.
+//
 $curry-plain-grid-outer-width: 320px !default;
 $curry-plain-grid-margin: 20px !default;
 
