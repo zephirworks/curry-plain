@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{curry-plain}
-  s.version = "0.4.0"
+  s.version = "0.4.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.3.5")
   s.authors = ["Andrea Campi"]
@@ -29,5 +29,5 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.6}
   s.summary = %q{Plain Curry, a simple theme for Treesaver}
   s.add_dependency(%q<compass>, ["~> 0.11"])
-  s.add_dependency(%q<curry-powder>, ["~> 0.4.0"])
+  s.add_dependency(%q<curry-powder>, ["~> 0.5.0"])
 end
