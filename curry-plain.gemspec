@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.3.5")
   s.authors = ["Andrea Campi"]
-  s.date = %q{2011-08-23}
+  s.date = %q{2012-02-28}
   s.description = %q{A Compass plugin that provides a "plain" theme for Treesaver.}
   s.email = %w{andrea.campi@zephirworks.com}
   s.has_rdoc = false
