@@ -1,3 +1,12 @@
+@import "curry/plain/utils";
+
+$curry-plain-h1-line-height: -curry-plain-font-size-to-line-height($curry-plain-h1-font-size) !default;
+$curry-plain-h2-line-height: -curry-plain-font-size-to-line-height($curry-plain-h2-font-size) !default;
+$curry-plain-h3-line-height: -curry-plain-font-size-to-line-height($curry-plain-h3-font-size) !default;
+$curry-plain-h4-line-height: -curry-plain-font-size-to-line-height($curry-plain-h4-font-size) !default;
+$curry-plain-h5-line-height: -curry-plain-font-size-to-line-height($curry-plain-h5-font-size) !default;
+$curry-plain-h6-line-height: -curry-plain-font-size-to-line-height($curry-plain-h6-font-size) !default;
+
 div, p, button {
   font-family: $curry-plain-font-family;
   font-size: $curry-plain-base-font-size;
