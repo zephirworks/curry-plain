@@ -25,7 +25,7 @@
   .smallscreen.mobile {
     background: white;
 
-    .column, .container, p {
+    .column, .container {
       width: $width;
       min-width: $width;
     }
