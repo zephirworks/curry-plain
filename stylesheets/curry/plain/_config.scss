@@ -37,7 +37,7 @@ $curry-plain-grid-padding-horizontal: 20px !default;          // padding inside 
 //
 // Smallscreen styling
 //
-$curry-plain-smallscreen-width: $curry-grid-smallscreen-width !default; // deprecate?
+$curry-plain-smallscreen-width: $curry-plain-grid-outer-width !default;
 $curry-plain-smallscreen-grid-padding: 10px !default;
 
 //
