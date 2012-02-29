@@ -6,7 +6,7 @@ $curry-plain-smallscreen-width: $curry-plain-grid-outer-width !default;
   .smallscreen.mobile {
     .mobile.grid {
       margin: 0;
-      padding: $curry-plain-smallscreen-grid-padding;
+      padding: 0 $curry-plain-smallscreen-grid-padding;
       border: none;
       @include box-shadow(none);
 
