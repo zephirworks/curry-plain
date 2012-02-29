@@ -1,5 +1,7 @@
 @import "compass/css3/box-shadow";
 
+$curry-plain-smallscreen-width: $curry-plain-grid-outer-width !default;
+
 @mixin -curry-plain-grid-smallscreen {
   .smallscreen.mobile {
     .mobile.grid {
